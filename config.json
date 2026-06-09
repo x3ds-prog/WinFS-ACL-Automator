@@ -1,0 +1,16 @@
+{
+    "Mode": ["Audit"],
+    "Root": "D:\\",
+    "DomainDNS": "yourdomain.local",
+    "DomainNB": "YOURDOMAIN",
+    "ServerHost": "YOURFILESERVER",
+    "GroupOU": "OU=Groups,OU=Resources,DC=yourdomain,DC=local",
+    "DfsNamespace": "\\\\yourdomain.local\\SharedData",
+    "ReportDir": "C:\\Temp\\FileServer-SecurityAudit",
+    "FullSuffix": "_FOLDER_FULL",
+    "RoSuffix": "_FOLDER_READ-ONLY",
+    "SkipFolders": ["SHARED_FOLDERS", "CLOUDPUBLIC"],
+    "TargetFolders": [],
+    "RWRight": "Modify",
+    "HiddenShares": true
+}
